@@ -1,0 +1,217 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Short Stack', cursive;
+}
+
+body{
+    background-color: #D4CDC2;
+    height:100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color:#724d38;
+    font-size: 40px;
+    padding: 10px 4%;
+    text-align: center;
+
+
+}
+/*--Estilo do cabeçalho--*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #59382C;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header a:hover{
+    color: #724d38;
+    transform: scale(1.08);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+
+
+/*---Estilo do topo do site---*/
+section.topo-site{
+    padding: 40px 8%;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.texto-topo-site h1{
+    color: #5D89AC;
+    font-size: 65px;
+    line-height: 85px;
+}
+
+
+
+/*-----Estilo de  Sobre Mim---*/
+section.sobre-mim{
+    padding: 20px 4%;
+}
+
+section.sobre-mim .flex{
+    align-items: center;
+    gap: 50px;
+}
+
+section.texto-sobre{
+    color: #2f2f2f;
+}
+
+.sobre-mim .texto-sobre{
+    color: #2f2f2f;
+}
+
+.sobre-mim .texto-sobre h3{
+    font-size: 24px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+.sobre-mim .texto-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+
+}
+
+
+
+/*---Estilo de Formação Educacional---*/
+section.formacao{
+    padding: 40px 4%;
+}
+
+section.formacao .flex{
+    gap: 45px;
+}
+
+.formacao .formacao-box{
+    color: #2f2f2f;
+    padding: 40px;
+    border: 2px solid #2f2f2f;
+    margin-top: 45px ;
+    border-radius: 15px ;
+    transition: .2s;
+}
+
+.formacao .formacao-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #565656d4;
+}
+
+.formacao .formacao-box h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+
+
+
+/*---Estilo de Portifolio---*/
+section.portifolio{
+    padding: 50px 4%;
+    align-items: center;
+}
+
+.portifolio .texto-portifolio{
+    color: #2f2f2f;    
+}
+
+.portifolio .texto-portifolio p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+
+/*---Estilo de Formulario---*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    border-radius: 13px;
+    color: #6889A6;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 300px;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #6889A6;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #2f2f2f;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+/*--Estilo de Rodpe--*/
+footer {    
+    box-shadow: 0px -4px 0px 0px #6889A6;
+    padding: 30px;
+    text-align: center;
+  }
